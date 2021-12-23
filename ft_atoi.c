@@ -6,7 +6,7 @@
 /*   By: tlemma <tlemma@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/09/02 17:15:24 by tlemma            #+#    #+#             */
-/*   Updated: 2021/09/02 18:08:18 by tlemma           ###   ########.fr       */
+/*   Updated: 2021/12/23 01:35:53 by tlemma           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,11 +35,11 @@ int	isvalidstr(const char *s)
 	return (1);
 }
 
-int	ft_atoi(const char *str)
+long	ft_atoi(const char *str)
 {
 	int				i;
 	long			num;
-	int				sign;
+	long			sign;
 	unsigned int	digit;
 
 	i = 0;
